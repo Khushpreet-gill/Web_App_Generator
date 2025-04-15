@@ -1,0 +1,17 @@
+{
+  "Header Section:": [
+    "* **Logo:** The logo is located at the top-left corner of the screen, and it appears to be a combination mark with an orange circle and a white shape, accompanied by the text \"Hashedin\" in black and orange.",
+    "**Menu Items:** The top navigation menu includes the following items:\n\t+ **Dashboard** (currently active)\n\t+ **Help**\n\t+ **Cookies**\n\t+ **Feedback**\n\t+ **Notifications**",
+    "**Profile Picture:** A gray circular profile picture is visible at the top-right corner of the screen."
+  ],
+  "Sidebar:": [
+    "* **Menu Items:** The sidebar menu includes the following items:\n\t+ **Quick Links**\n\t\t- **Discover Apps**\n\t\t- **People & Culture**\n\t\t- **Apply Leaves**\n\t+ **Holidays**\n\t\t- **March 14, 2025**\n\t\t- **March 31, 2025**\n\t\t- **April 14, 2025**"
+  ],
+  "Main Content Area:": [
+    "* **Cards:** There are four cards displayed on the dashboard:\n\t1. **Your Pods:**\n\t\t- **CMC Document Authoring Automation (Wave3_S6#Jan2025_POD2)**\n\t\t- Last Updated on: Feb 3, 2025\n\t2. **L1S (Leave Manager System):**\n\t\t- Currently no manager assigned\n\t\t- Request is pending\n\t\t- Manage Requests\n\t3. **Skills & Capability:**\n\t\t- Capability: UI\n\t\t- Skills: PostgreSQL, React, Angular, Postman\n\t\t- Last Updated on: May 27, 2024\n\t\t- Update\n\t4. **ACE - Certification Hub:**\n\t\t- Certificates: 0\n\t\t- Enrolled: 1\n\t\t- Available Certifications: 134\n\t5. **Volunteer:**\n\t\t- Upcoming Activities: 2\n\t\t- Tech Coach_HUJ Spark 25.2.1_IBLR\n\t\t- Product Coach, HUJ Spark 25.2.1_IBLR\n\t6. **Refer a Candidate:**\n\t\t- Open roles: 10\n\t\t- Product Leader\n\t\t- Technology Leader\n\t\t- Add a Referral"
+  ],
+  "Other Elements:": [
+    "* **Rearrange Cards:** A button to rearrange cards is visible at the top-right corner of the main content area.",
+    "**Help and Support:** A question mark icon is visible at the bottom-right corner of the screen, likely providing access to help and support resources."
+  ]
+}

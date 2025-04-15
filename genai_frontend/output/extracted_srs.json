@@ -1,0 +1,174 @@
+{
+  "projectName": "DNA Ecosystem",
+  "dependencies": [
+    "Angular",
+    "Material UI"
+  ],
+  "uiComponents": [
+    {
+      "name": "Buttons",
+      "description": "Rounded corners (8px), filled for primary actions, outlined for secondary actions."
+    },
+    {
+      "name": "Cards",
+      "description": "Shadow (box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1)) with padding (16px)."
+    },
+    {
+      "name": "Modals",
+      "description": "Centered popups with a semi-transparent background."
+    },
+    {
+      "name": "Forms",
+      "description": "Input fields with a border radius of 5px and padding of 10px."
+    }
+  ],
+  "stateManagement": {
+    "globalState": "Managed through Angular",
+    "apiHandling": "Handled through API contracts",
+    "interactions": "Defined through application features"
+  },
+  "apiEndPoints": [
+    {
+      "name": "Fetch Dashboard Data",
+      "method": "GET",
+      "endpoint": "/api/dashboard",
+      "headers": [
+        "Authorization: Bearer <token>"
+      ],
+      "body": {},
+      "response": {
+        "tiles": [
+          {
+            "id": "1",
+            "title": "Leave Summary",
+            "content": "10 leaves remaining"
+          },
+          {
+            "id": "2",
+            "title": "Pod Members",
+            "content": "3 active members"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Apply for Leave",
+      "method": "POST",
+      "endpoint": "/api/lms/leave/apply",
+      "headers": [
+        "Authorization: Bearer <token>"
+      ],
+      "body": {
+        "startDate": "2025-03-15",
+        "endDate": "2025-03-18",
+        "reason": "Family event"
+      },
+      "response": {
+        "message": "Leave request submitted successfully",
+        "status": "pending"
+      }
+    },
+    {
+      "name": "Approve Leave",
+      "method": "POST",
+      "endpoint": "/api/lms/leave/approve",
+      "headers": [
+        "Authorization: Bearer <token>"
+      ],
+      "body": {
+        "leaveId": "12345",
+        "status": "approved"
+      },
+      "response": {
+        "message": "Leave request approved",
+        "status": "approved"
+      }
+    },
+    {
+      "name": "View Pod Details",
+      "method": "GET",
+      "endpoint": "/api/pods/details",
+      "headers": [
+        "Authorization: Bearer <token>"
+      ],
+      "body": {},
+      "response": {
+        "podId": "56789",
+        "podName": "Innovation Team",
+        "members": [
+          {
+            "id": "1",
+            "name": "John Doe",
+            "role": "Lead Developer"
+          },
+          {
+            "id": "2",
+            "name": "Jane Smith",
+            "role": "UI/UX Designer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Recommend an Employee for a Pod",
+      "method": "POST",
+      "endpoint": "/api/pods/recommend",
+      "headers": [
+        "Authorization: Bearer <token>"
+      ],
+      "body": {
+        "podId": "56789",
+        "recommendedUserId": "3"
+      },
+      "response": {
+        "message": "Recommendation sent successfully"
+      }
+    },
+    {
+      "name": "Login",
+      "method": "POST",
+      "endpoint": "/api/auth/login",
+      "headers": [],
+      "body": {
+        "email": "user@example.com",
+        "password": "securepassword"
+      },
+      "response": {
+        "token": "jwt-token-here",
+        "user": {
+          "id": "1",
+          "role": "manager"
+        }
+      }
+    },
+    {
+      "name": "Fetch Current User",
+      "method": "GET",
+      "endpoint": "/api/auth/me",
+      "headers": [
+        "Authorization: Bearer <token>"
+      ],
+      "body": {},
+      "response": {
+        "id": "1",
+        "name": "John Doe",
+        "role": "manager"
+      }
+    }
+  ],
+  "stylingAndBranding": {
+    "colorScheme": {
+      "primaryColor": "#007bff",
+      "secondaryColor": "#6c757d",
+      "backgroundColor": "#f8f9fa",
+      "successColor": "#28a745",
+      "errorColor": "#dc3545"
+    },
+    "typography": {
+      "fontFamily": "Inter, sans-serif",
+      "headingFontSize": 24,
+      "bodyFontSize": 16,
+      "buttonFontSize": 14
+    }
+  }
+}

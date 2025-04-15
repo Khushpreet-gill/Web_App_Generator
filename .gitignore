@@ -1,0 +1,3 @@
+.venv
+genai_frontend/.venv
+genai_frontend/chromadb
